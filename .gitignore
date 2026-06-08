@@ -217,4 +217,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+# added by me
 notebook/catboost_info/
+artifacts/
