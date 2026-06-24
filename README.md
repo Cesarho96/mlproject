@@ -72,6 +72,6 @@ AWS_SECRET_ACCESS_KEY= the secret access key that you download when you create t
 
 AWS_REGION = us-east-1 (The region from the EC2 is running)
 
-AWS_ECR_LOGIN_URI = 566540245226.dkr.ecr.us-east-1.amazonaws.com/student_performance (the link that we copied from the ECR)
+AWS_ECR_LOGIN_URI = 566540245226.dkr.ecr.us-east-1.amazonaws.com (string before the slash of the link of the ecr that we get in step 4)
 
-ECR_REPOSITORY_NAME = mltest (the name of the docker image that we wrote in te main.yaml file)
+ECR_REPOSITORY_NAME = student_performance (string after the slash of the link of the ecr that we get in step 4)
