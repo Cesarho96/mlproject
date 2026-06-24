@@ -1,9 +1,8 @@
-FROM python:3.11-slim-buster
-FROM python:3.11-slim-buster
+FROM python:3.11-slim-bookworm
 WORKDIR /app
 COPY . /app
 
-# Combine updates and installs into a single layer, and clean up to save space
+# The repositories for 'bookworm' are active, so this will now work perfectly
 RUN apt-get update && apt-get install -y \
     awscli \
     ffmpeg \
